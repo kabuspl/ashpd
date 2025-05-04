@@ -49,6 +49,8 @@ pub mod print;
 /// Proxy information.
 pub mod proxy_resolver;
 pub mod realtime;
+/// Associate D-Bus connection with application id
+pub mod registry;
 /// Start a remote desktop session and interact with it.
 pub mod remote_desktop;
 pub mod screencast;
